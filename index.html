@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "icon" type = "image/png" href = "Assets/Favicon.png">
+    <title> Dunzo </title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "app">
+            <h2> Dunzo </h2>
+            <div class = "row">
+                <input type = "text" id = "input-box" placeholder = "Add Your Todo">
+                <button id = "btn"> Add </button>
+            </div>
+            <ul id = "todos"></ul>
+        </div>
+    </div>
+    <div id = "toast-error" class = "toast hidden">
+        <span id = "toast-msg"></span>
+        <span id = "toast-close"> &times; </span>
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>
